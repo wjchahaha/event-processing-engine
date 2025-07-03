@@ -1,0 +1,7 @@
+
+#如果需要修改配置  需要进入nacos中做修改  修改配置地址：  http://39.100.209.1:18848/nacos
+spring:
+  profiles:
+    active: test
+  application:
+    name: event-processing-engine
