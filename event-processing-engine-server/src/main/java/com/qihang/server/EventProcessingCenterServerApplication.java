@@ -26,8 +26,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ComponentScan(basePackages = "com.qihang")
 @EnableFeignClients(basePackages = "com.qihang")
 @EnableDiscoveryClient
-public class DemoCenterServerApplication {
+public class EventProcessingCenterServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DemoCenterServerApplication.class, args);
+        SpringApplication.run(EventProcessingCenterServerApplication.class, args);
     }
 }
